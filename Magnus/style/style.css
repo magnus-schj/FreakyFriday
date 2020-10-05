@@ -6,6 +6,21 @@
 }
 
 /* NAV */
-.main-head {
+.main-head {}
+
+nav {
+    display: flex;
+    background: grey;
+    min-height: 10vh;
+}
+
+nav a,
+li {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
+nav ul {
     display: flex;
 }

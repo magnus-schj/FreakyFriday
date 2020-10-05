@@ -19,8 +19,6 @@ li {
 }
 
 /* NAV */
-.main-head {}
-
 nav {
     display: flex;
     align-items: center;

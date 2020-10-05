@@ -10,6 +10,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-size: 2rem;
+}
+
+li {
+    font-size: 1.5rem;
+}
+
 /* NAV */
 .main-head {}
 
@@ -32,4 +40,13 @@ li {
 
 nav ul {
     display: flex;
+}
+
+/* HERO-SECTION */
+
+.hero {
+    min-height: 90vh;
+    background: url("/img/pexels-muharrem-aydın-1836580.jpg");
+    background-position: center;
+    background-size: cover;
 }

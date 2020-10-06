@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #38359e;
+    background: rgb(13, 21, 87);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -52,10 +52,19 @@ nav ul {
     align-items: center;
     justify-content: center;
     color: white;
-    font-family: 'Monoton', cursive;
 }
 
 .hero h1 {
+    font-family: 'Monoton', cursive;
     font-size: 5rem;
+    color: gold;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
 
+.hero h2 {
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    color: rgb(241, 239, 227);
+    text-shadow: 1px 1px black;
 }

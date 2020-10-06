@@ -83,6 +83,7 @@ nav ul {
     margin: 5rem;
     font-size: 3rem;
     color: white;
+    font-family: 'Pacifico', cursive;
 }
 
 .box-wrapper {
@@ -95,13 +96,18 @@ nav ul {
 
 .box {
     background: #a8f5ff;
-    width: 10rem;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box h2 {
+    margin: 1rem;
 }
 
 .box:hover {
     cursor: pointer;
-    background-color: #80b7be;
+    background-color: #b7f7ff;
 }

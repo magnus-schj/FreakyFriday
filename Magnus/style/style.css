@@ -6,7 +6,7 @@
 }
 
 body {
-    background: rgb(6, 6, 39);
+    background: #38359e;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -23,7 +23,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: #53d8fb;
+    background: #53fbad;
     min-height: 10vh;
     flex: 1 1 40px;
 }
@@ -44,7 +44,7 @@ nav ul {
 
 .hero {
     min-height: 90vh;
-    background: url("/img/pexels-şinasi-müldür-2048865.jpg");
+    background: url("/img/bridge.jpg");
     background-position: center;
     background-size: cover;
 }

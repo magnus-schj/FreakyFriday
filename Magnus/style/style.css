@@ -23,7 +23,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: #53fbad;
+    background: #53ebff;
     min-height: 10vh;
     flex: 1 1 40px;
 }
@@ -44,7 +44,18 @@ nav ul {
 
 .hero {
     min-height: 90vh;
-    background: url("/img/bridge.jpg");
+    background: url("/img/tower.jpg");
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Monoton', cursive;
+}
+
+.hero h1 {
+    font-size: 5rem;
+
 }

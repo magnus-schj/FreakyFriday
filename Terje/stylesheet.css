@@ -1,49 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 *{
   padding:0;
   margin:0;
   box-sizing: border-box;
   font-family: "Courier New", sans-serif ;
 }
-header{
-  align-content: center;
-  position: fixed;
-  border-bottom: indianred 1px solid;
-  width:100vw;
-  height:50px
-}
-
-nav{
-height:50px;
-}
-
-.logo{
-  padding-left: 25px;
-  height: 20px;
-}
-#navbar{
-
-}
-#navbar ul{
-  padding:0 5vw 5px 10px;
-  float: right;
+body{background-color: #a25d43;}
+li,a,button{
+  font-family: "Roboto Light", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  text-decoration: none;
   list-style: none;
-  display: inline;
+}
+header{
+display: flex;
+  justify-content: space-between;
 
-
-
+align-items: center;
+  padding:25px 10vw;
+  background-color: #25259b;
+  height:50px;
+border-bottom: yellow 2px solid;
+}
+.logo{cursor: pointer;}
+#navbar ul{
 
 }
 #navbar li{
-  display: inline-block;
-  padding-left: 50px;
-  font-size: 20px;
-  position: relative;
+display: inline-flex;
+  padding: 0 20px;
 }
-#navbar a{
-  font-size: 110%;
-  color:#555555;
-  text-decoration: none;
+#navbar li a{
+  transition: all 0.4s ease 0s;
+color: orange;
 }
-#navbar a:hover{
-  color:  black;
+#navbar li a:hover{
+  transition: all 0.4s ease 0s;
+color: yellow;
+}
+section{
+  width: 75vw;
+  align-content: center;
+  margin-left: 12.5vw;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+section h1{
+
+}
+section img{width:23vw}
+@media (max-width: 600px) {
+  li,a,h1{font-size: 60%}
+
 }

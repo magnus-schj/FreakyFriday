@@ -14,32 +14,33 @@ li,a,button{
   list-style: none;
 }
 header{
-display: flex;
+  display: flex;
   justify-content: space-between;
 
-align-items: center;
+  align-items: center;
   padding:25px 10vw;
   background-color: #25259b;
   height:50px;
-border-bottom: yellow 2px solid;
+  border-bottom: yellow 2px solid;
 }
 .logo{cursor: pointer;}
 #navbar ul{
 
 }
 #navbar li{
-display: inline-flex;
+  display: inline-flex;
   padding: 0 20px;
 }
 #navbar li a{
   transition: all 0.4s ease 0s;
-color: orange;
+  color: orange;
 }
 #navbar li a:hover{
   transition: all 0.4s ease 0s;
-color: yellow;
+  color: yellow;
 }
 section{
+  margin: 10px 0;
   width: 75vw;
   align-content: center;
   margin-left: 12.5vw;
@@ -48,8 +49,11 @@ section{
   flex-wrap: wrap;
 }
 section h1{
-
+padding-left: 40%;
 }
+.row{padding-top: 10px;
+}
+.row img{border: red 1px solid;}
 section img{width:23vw}
 @media (max-width: 600px) {
   li,a,h1{font-size: 60%}

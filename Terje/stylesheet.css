@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
 *{
   padding:0;
   margin:0;
   box-sizing: border-box;
   font-family: "Courier New", sans-serif ;
 }
-body{background-color: #a25d43;}
+
+
+h1,h2{color: orange;}
+body{background-color: #3d6cb9;
+  background-size: cover;
+  font-size: 110%;
+}
+
+
 li,a,button{
   font-family: "Roboto Light", sans-serif;
   font-weight: 500;
@@ -13,32 +23,52 @@ li,a,button{
   text-decoration: none;
   list-style: none;
 }
+
+
 header{
   display: flex;
   justify-content: space-between;
-
+  position: fixed;
+  width: 100%;
   align-items: center;
   padding:25px 10vw;
   background-color: #25259b;
-  height:50px;
+  height:60px;
   border-bottom: yellow 2px solid;
+  margin-top: -10px;
+
 }
-.logo{cursor: pointer;}
+
+
+.logo{
+  cursor: pointer;
+
+}
+
+
 #navbar ul{
 
 }
+
+
 #navbar li{
   display: inline-flex;
   padding: 0 20px;
 }
+
+
 #navbar li a{
   transition: all 0.4s ease 0s;
   color: orange;
 }
+
+
 #navbar li a:hover{
   transition: all 0.4s ease 0s;
   color: yellow;
 }
+
+
 section{
   margin: 10px 0;
   width: 75vw;
@@ -48,14 +78,44 @@ section{
   flex-flow: row;
   flex-wrap: wrap;
 }
-section h1{
-padding-left: 40%;
+
+
+section h2{
+  padding-left: 40%;
+
 }
-.row{padding-top: 10px;
+
+section img{
+  width:23vw
 }
-.row img{border: red 1px solid;}
-section img{width:23vw}
+
+
+.row{
+  padding-top: 10px;
+}
+
+
+.row img{
+  border: red 1px solid;
+}
+
+
 @media (max-width: 600px) {
   li,a,h1{font-size: 60%}
 
+}
+
+
+.creator h3{
+  color: white;
+  padding-left: 47%;
+}
+.creator {
+  width: 75%;
+
+}
+.creator img{width: 25%}
+
+.creator .creator-info{
+  width: 45%;
 }

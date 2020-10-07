@@ -116,6 +116,15 @@ nav ul {
     background-color: #b7f7ff;
 }
 
+/* TOP 5 COUNTRIES */
+.top-5 {
+    min-height: 100vh;
+}
+
+.top-5-wrapper {}
+
+.top-country {}
+
 /* FOOTER */
 footer {
     background: rgb(54, 62, 129);

@@ -112,6 +112,10 @@ nav ul {
     margin: 1rem;
 }
 
+.box img {
+    margin: 1rem 1rem;
+}
+
 .box:hover {
     cursor: pointer;
     background-color: #b7f7ff;
@@ -127,12 +131,18 @@ nav ul {
     justify-content: center;
 }
 
+.top-5-title h1 {
+    margin: 3rem auto;
+    font-size: 4rem;
+}
+
 .top-5-wrapper {
     display: flex;
 }
 
 .top-country {
     background: white;
+
 }
 
 /* FOOTER */

@@ -161,6 +161,11 @@ nav ul {
     justify-content: center;
 }
 
+.top-country img {
+    height: 50%;
+    width: 50%;
+}
+
 .top-country h2 {
     font-size: 2rem;
 }

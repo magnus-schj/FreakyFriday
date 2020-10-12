@@ -9,7 +9,7 @@
 }
 
 
-h1,h2,li {
+p,h1,h2,h3,h4,li {
   color: orange;
 }
 
@@ -112,16 +112,14 @@ section img {
 
 
 .row img {
-  border: red 1px solid;
+  border: orange 1px solid;
   height: 50vh;
 }
 
 
 @media (max-width: 600px) {
 
-  li,
-  a,
-  h1 {
+  li,a,h1 {
     font-size: 60%
   }
 
@@ -129,7 +127,7 @@ section img {
 
 .hotdogfact{
   width:75vw;
-  border: orangered 2px solid;
+  border: orange 2px solid;
 }
 
 .hotdogfact h1{
@@ -155,20 +153,28 @@ margin-left: 20px;}
 
 
 .footer{
-  height:50px;
   width: 100vw;
-display: block;
-overflow: hidden;
-padding: 60px 0;
+display: inline-block;
+flex-direction: row;
 background-color:#25259b ;
 }
-.profilbilde{
-  max-height: 5rem;
-  max-width:5rem;
-  border-radius: 50%;
+.indrefooter{
+
 }
 
+.profilbilde{
+  height: 5rem;
+  width:5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  display:inline-block;
+}
 
+.quote {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  width: 80wv;
+}
 
 
 /*.creator h3 {

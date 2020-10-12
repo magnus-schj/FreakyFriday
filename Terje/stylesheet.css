@@ -9,8 +9,7 @@
 }
 
 
-h1,
-h2 {
+h1,h2,li {
   color: orange;
 }
 
@@ -75,9 +74,17 @@ header {
 #navbar li a:hover {
   transition: all 0.4s ease 0s;
   color: yellow;
+  
 }
 
+.img-heading{
+padding-top: 50px;
+width: 100%;
+}
 
+.img-heading{
+  text-align: center;
+}
 section {
   margin: 10px 0;
   width: 75vw;
@@ -106,6 +113,7 @@ section img {
 
 .row img {
   border: red 1px solid;
+  height: 50vh;
 }
 
 
@@ -119,6 +127,31 @@ section img {
 
 }
 
+.hotdogfact{
+  width:75vw;
+  border: orangered 2px solid;
+}
+
+.hotdogfact h1{
+  text-align: center;
+ 
+}
+.align{
+  display:flex;
+}
+
+.infoimg{
+  width: 25vw;
+}
+
+.info{width: 20vw;
+margin-left: 20px;}
+
+.info li{
+  list-style: url(img/check.png);
+  margin-bottom: 90px;
+  font-size:1.5em ;
+}
 
 .creator h3 {
   color: white;
@@ -136,4 +169,17 @@ section img {
 
 .creator .creator-info {
   width: 45%;
+}
+.footer{
+  height:50px;
+  width: 100vw;
+display: block;
+overflow: hidden;
+padding: 60px 0;
+background-color:#25259b ;
+}
+.profilbilde{
+  max-height: 5rem;
+  max-width:5rem;
+  border-radius: 50%;
 }

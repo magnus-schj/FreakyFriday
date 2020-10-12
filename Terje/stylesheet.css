@@ -153,7 +153,25 @@ margin-left: 20px;}
   font-size:1.5em ;
 }
 
-.creator h3 {
+
+.footer{
+  height:50px;
+  width: 100vw;
+display: block;
+overflow: hidden;
+padding: 60px 0;
+background-color:#25259b ;
+}
+.profilbilde{
+  max-height: 5rem;
+  max-width:5rem;
+  border-radius: 50%;
+}
+
+
+
+
+/*.creator h3 {
   color: white;
   padding-left: 47%;
 }
@@ -169,17 +187,4 @@ margin-left: 20px;}
 
 .creator .creator-info {
   width: 45%;
-}
-.footer{
-  height:50px;
-  width: 100vw;
-display: block;
-overflow: hidden;
-padding: 60px 0;
-background-color:#25259b ;
-}
-.profilbilde{
-  max-height: 5rem;
-  max-width:5rem;
-  border-radius: 50%;
-}
+}*/

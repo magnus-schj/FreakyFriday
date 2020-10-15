@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
+html{
+  scroll-padding-top:100px;
+}
 
 * {
   padding: 0;
@@ -54,9 +56,6 @@ header {
  width:100%;
  height:10px;
 }
-
-#navbar ul {}
-
 
 #navbar li {
   display: inline-flex;

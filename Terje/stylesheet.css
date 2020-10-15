@@ -121,11 +121,12 @@ section img {
 
 .hotdogfact h1{
   text-align: center;
- 
 }
+
 .align{
   display:flex;
 }
+
 .quote {
   margin-left: 15px;
   margin-bottom: 10px;
@@ -149,6 +150,7 @@ margin-left: 20px;}
 .info a{
   color: orange;
 }
+
 .info li::after{
   content: '';
   display: block;
@@ -156,17 +158,16 @@ margin-left: 20px;}
   height: 2px;
   background: orange;
   transition: all 0.5s ease-in;
-
 }
 
 .info li:hover{
   color: yellow;
   transition: all 1s ease 0s;
 }
+
 .info li:hover::after{
   width: 100%;
   transition: 0.5s ease-out 0s;
-
 }
 
 .footer{
@@ -176,15 +177,8 @@ flex-direction: row;
 background-color:#25259b ;
 }
 
-.footer h3{margin: 0 0 0 20px;}
-
-.profilbilde img{
-  height: 5rem;
-  width:5rem;
-  border-radius: 50%;
-  overflow: hidden;
-  display:inline-block;
-  margin-left: 20px;
+.footer h3{
+  margin: 0 0 0 20px;
 }
 
 .footer-info{
@@ -195,6 +189,16 @@ background-color:#25259b ;
 .footer-info p {
   margin-left: 10px;
 }
+
+.profilbilde img{
+  height: 5rem;
+  width:5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  display:inline-block;
+  margin-left: 20px;
+}
+
 @media (max-width: 1400px) {
   h1{
     font-size: 110%;

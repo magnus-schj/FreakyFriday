@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
+html{
+  scroll-padding-top:100px;
+}
 
 * {
   padding: 0;
@@ -9,9 +11,8 @@
 }
 
 
-h1,
-h2 {
-  color: orange;
+p,h1,h2,h3,h4,li {
+  color:yellow;
 }
 
 body {
@@ -21,8 +22,7 @@ body {
 }
 
 
-li,
-a,
+li,a,
 button {
   font-family: "Roboto Light", sans-serif;
   font-weight: 500;
@@ -40,7 +40,7 @@ header {
   align-items: center;
   padding: 25px 10vw;
   background-color: #25259b;
-  height: 60px;
+  height: 100px;
   border-bottom: yellow 2px solid;
   margin-top: -10px;
 
@@ -53,11 +53,9 @@ header {
 }
 
 .clear {
-  clear: both;
+ width:100%;
+ height:10px;
 }
-
-#navbar ul {}
-
 
 #navbar li {
   display: inline-flex;
@@ -74,9 +72,17 @@ header {
 #navbar li a:hover {
   transition: all 0.4s ease 0s;
   color: yellow;
+  
 }
 
+.img-heading{
+padding-top: 50px;
+width: 100%;
+}
 
+.img-heading{
+  text-align: center;
+}
 section {
   margin: 10px 0;
   width: 75vw;
@@ -104,35 +110,151 @@ section img {
 
 
 .row img {
-  border: red 1px solid;
+  border: rgb(201, 139, 58) 1px solid;
+  height: 50vh;
 }
 
+.hotdogfact{
+  width:75vw;
+  border: orange 2px solid;
+}
 
-@media (max-width: 600px) {
+.hotdogfact h1{
+  text-align: center;
+}
 
-  li,
-  a,
-  h1 {
-    font-size: 60%
+.align{
+  display:flex;
+}
+
+.quote {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  width: 80wv;
+}
+
+.infoimg{
+  width: 25vw;
+}
+
+.info{width: 20vw;
+margin-left: 20px;}
+
+.info li{
+  list-style: url(img/check.png);
+  margin-bottom: 90px;
+  font-size:1.5em ;
+  cursor: default;
+}
+
+.info a{
+  color: orange;
+}
+
+.info li::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: orange;
+  transition: all 0.5s ease-in;
+}
+
+.info li:hover{
+  color: yellow;
+  transition: all 1s ease 0s;
+}
+
+.info li:hover::after{
+  width: 100%;
+  transition: 0.5s ease-out 0s;
+}
+
+.footer{
+  width: 100vw;
+display: inline-block;
+flex-direction: row;
+background-color:#25259b ;
+}
+
+.footer h3{
+  margin: 0 0 0 20px;
+}
+
+.footer-info{
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.footer-info p {
+  margin-left: 10px;
+}
+
+.profilbilde img{
+  height: 5rem;
+  width:5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  display:inline-block;
+  margin-left: 20px;
+}
+
+@media (max-width: 1400px) {
+  h1{
+    font-size: 110%;
   }
+}
+@media (max-width: 1000px) {
+
+  li,a,h1 {
+    font-size: 90%
+  }
+.row img{
+  height:auto;
+  width: 70%;
+  margin-left: 20%;
+}
+.align{
+  display: inline-flex;
+  flex-direction: column;
 
 }
-
-
-.creator h3 {
-  color: white;
-  padding-left: 47%;
+.align li{
+margin-left: 30%;
+}
+section h2{
+  font-size: 7100;
+  text-align: left;
+  margin-left: 0%
+}
 }
 
-.creator {
-  width: 75%;
+@media (max-width: 700px) {
+
+  li,a,h1 {
+    font-size: 85%
+  }
+.row img{
+  height:auto;
+  width: 60%;
+  margin-left: 20%;
+}
+.align{
+  display: inline-flex;
+  flex-direction: column;
 
 }
-
-.creator img {
-  width: 25%
+.align li{
+margin-left: 30%;
 }
-
-.creator .creator-info {
-  width: 45%;
+section h2{
+  font-size: 110%;
+  text-align: left;
+  margin-left: -10%
 }
+}
+@media (max-width: 250px) {
+ section h2{
+    size:70%
+  }
+  }
